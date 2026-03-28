@@ -1,0 +1,69 @@
+# -----------------------------
+# OS & Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# Node (Frontend)
+# -----------------------------
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+
+# Env files (VERY IMPORTANT)
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Python (Backend)
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# -----------------------------
+# Docker
+# -----------------------------
+*.tar
+docker-compose.override.yml
+
+# -----------------------------
+# Tooling / Misc
+# -----------------------------
+coverage/
+.tmp/
+.temp/
+
+# -----------------------------
+# Google Cloud SDK
+# -----------------------------
+tools/
+tools2/
+google-cloud-sdk/
+
+# -----------------------------
+# TypeScript
+# -----------------------------
+*.tsbuildinfo
