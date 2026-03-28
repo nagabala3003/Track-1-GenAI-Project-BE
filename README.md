@@ -19,7 +19,7 @@ Deployed on **Google Cloud Run**, it is scalable and serverless.
 ## 🌐 Live API
 
 ```
-https://track1-api-495616481970.us-central1.run.app
+https://track1-api-495616481970.us-central1.run.app/
 ```
 
 ---

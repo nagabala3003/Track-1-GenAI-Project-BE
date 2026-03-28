@@ -132,6 +132,6 @@ if __name__ == "__main__":
         "app.main:app",
         host="0.0.0.0",
         port=port,
-        reload=settings.reload,
+        reload=False,
         log_level=settings.log_level.lower(),
     )

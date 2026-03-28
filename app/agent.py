@@ -2,7 +2,8 @@ import logging
 import os
 import re
 import time
-from typing import Final, Literal, Optional, TypedDict
+from typing import Final, Literal, Optional
+from typing_extensions import TypedDict
 
 from google import genai
 
@@ -201,3 +202,5 @@ def generate_response(prompt: str) -> GeminiApiResponse:
         "data": None,
         "error": f"Gemini request failed: {last_error_message or 'Unknown error'}",
     }
+
+
